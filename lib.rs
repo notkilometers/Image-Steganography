@@ -1,3 +1,6 @@
+#![crate_type = "lib"]
+#![crate_name ="encoder"]
+
 extern crate image;
 
 use image::{GenericImageView, ImageBuffer, Rgba, RgbaImage};
